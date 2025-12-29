@@ -41,7 +41,27 @@ Answer:
 
 ```
 
-## Submission
+## **Post-Class: Deep Dive (Advanced Learners)**
 
-- Submit the URL of the GitHub Repository that contains your work to NTU black board.
-- Should you reference the work of your classmate(s) or online resources, give them credit by adding either the name of your classmate or URL.
+*These topics are optional but recommended for those pursuing Data Engineering.*
+
+### ** Referential Integrity**
+
+A deeper look at ON DELETE CASCADE vs ON DELETE SET NULL.
+
+* **Challenge:** If you delete a Teacher, what happens to the Students?
+
+### ** Data Types Cheat Sheet**
+
+| Type | Use Case |
+| :---- | :---- |
+| INT | Counts, IDs. |
+| VARCHAR | Names, Short descriptions. |
+| TEXT | Long comments, blogs. |
+| DATETIME | Timestamps. |
+| BOOLEAN | IsActive, HasPaid. |
+
+### ** Self-Study Assignment: The Music Streamer**
+
+Design a schema for a Spotify-clone. How do you handle a "Many-to-Many" relationship between Songs and Playlists?  
+(Hint: You will need a "Junction Table" in the middle\!)
