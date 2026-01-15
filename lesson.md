@@ -108,7 +108,7 @@ The glue that holds this blueprint together is the **ID**.
 
 ### **2.2 Concept: The Keys**
 
-1. **Primary Key (PK):** The unique social security number of a row.  
+1. **Primary Key (PK):** The unique NRIC number of a row.  
    * *Rule:* It creates identity. If two rows have the same PK, the database explodes (throws an error).  
 2. **Foreign Key (FK):** The reference pointing to someone else's PK.  
    * *Rule:* It creates relationships. "I belong to that person over there."
